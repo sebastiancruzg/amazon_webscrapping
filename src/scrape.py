@@ -3,7 +3,7 @@ from .get_url import get_url
 from .get_content import get_content
 from .collect_products import collect_products
 
-def scrape(base_url, search_term, save_model):
+def scrape(base_url:str, search_term:str, save_model:callable)->None:
 
     driver = setup_chrome_driver()
 

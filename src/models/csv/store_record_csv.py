@@ -1,6 +1,6 @@
 import csv
 
-def save_data_csv(records:list, search_term:str):
+def store_records(records:list, search_term:str):
 
     file_name = f'output/{search_term.replace(" ", "_")}.csv'
 
